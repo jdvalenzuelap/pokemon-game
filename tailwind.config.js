@@ -12,6 +12,7 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+<<<<<<< Updated upstream
       colors: {
         'pokeBlue': '#3B4CCA',
         'pokeYellow': '#FFDE00'
@@ -25,6 +26,12 @@ module.exports = {
       '3xl': '1.953rem',
       '4xl': '2.441rem',
       '5xl': '3.052rem',
+=======
+    },
+    colors: {
+      'pokeBlue': '#3B4CCA',
+      'pokeYellow': '#FFDE00'
+>>>>>>> Stashed changes
     }
   },
   plugins: [],
