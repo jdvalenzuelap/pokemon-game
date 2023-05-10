@@ -1,4 +1,5 @@
 import PokemonButton from '../components/PokemonButton'
+
 const Home = () => {
   return (
     <div className="sm:px-16 xl:px-48">
