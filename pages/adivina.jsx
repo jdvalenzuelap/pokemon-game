@@ -9,10 +9,15 @@ const Adivina = () => {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0)
   const [selectedAnswer, setSelectedAnswer] = useState('')
   const [score, setScore] = useState(0)
+  const [attemptsRemaining, setAttemptsRemaining] = useState(3) // Add state variable
+
 
   const currentPokemonData = pokemonData[currentQuestionIndex]
 
   const handleAnswerClick = (answer) => {
+    if (answer !== currentPokemonData.correctAnswer) { // Check if answer is incorrect
+      setAttemptsRemaining(attemptsRemaining - 1) // Reduce attemptsRemaining by 1
+    }
     setSelectedAnswer(answer)
   }
 
@@ -26,44 +31,30 @@ const Adivina = () => {
 
   if (currentQuestionIndex === pokemonData.length) {
     return (
-      <div>
-        <h1>Game completed!</h1>
-        <p>Your score is {score} out of {pokemonData.length}</p>
+      <div className="flex justify-center items-center h-screen">
+        <h1>¡Juego Terminado!</h1>
+        <p>Tu puntaje es {score} de {pokemonData.length}</p>
       </div>
     )
   }
 
   return (
-    <div className="mt-5 flex justify-center">
+    <div className="mt-5 flex justify-center h-screen">
       <div>
         <p className="my-6 mx-auto text-3xl font-bold dark:text-gray-400">
           ¿Quién es el <span className="text-pokeBlue">Pokémon</span>?
         </p>
         <div className="flex justify-center my-8">
+        {[...Array(attemptsRemaining)].map((_, i) => (
           <Image
+            key={i}
             className="mx-2"
             src={Pokeball}
-            id="1"
             alt="pokeball"
             width={45}
             height={45}
           />
-          <Image
-            className="mx-2"
-            src={Pokeball}
-            id="2"
-            alt="pokeball"
-            width={45}
-            height={45}
-          />
-          <Image
-            className="mx-2"
-            src={Pokeball}
-            id="3"
-            alt="pokeball"
-            width={45}
-            height={45}
-          />
+        ))}
         </div>
         <Image
           className="mx-auto my-10"
