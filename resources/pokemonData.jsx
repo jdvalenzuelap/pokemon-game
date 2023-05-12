@@ -1,4 +1,5 @@
 import Pikachu from "../public/images/pikachu.png";
+import Snorlax from "../public/images/snorlax.png";
 
 export const pokemonData = [
   {
@@ -7,7 +8,7 @@ export const pokemonData = [
     correctAnswer: 'Pikachu',
   },
   {
-    image: '../public/images/snorlax.png',
+    image: Snorlax,
     answers: ['Snorlax', 'Squirtle', 'Gengar'],
     correctAnswer: 'Snorlax',
   },
