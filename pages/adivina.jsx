@@ -74,14 +74,13 @@ const Adivina = () => {
         />
         <ul>
           {currentPokemonData.answers.map((answer) => (
-            <li
+            <PokemonButton
               key={answer}
               onClick={() => handleAnswerClick(answer)}
-              className={`${
-                selectedAnswer === answer ? 'bg-pokeBlue border-4 border-pokeYellow text-white w-full min-w-[180px] min-h-[40px] rounded-full' : 'bg-pokeYellow border-4 border-pokeBlue w-full min-w-[180px] min-h-[40px] rounded-full hover:bg-pokeBlue hover:border-pokeYellow hover:text-white'
-              } p-4 my-2 rounded-md cursor-pointer`}>
+              className={`my-2 ${selectedAnswer === answer ? 'bg-pokeBlue' : ''}`}
+            >
               {answer}
-            </li>
+            </PokemonButton>
           ))}
         </ul>
       <button
