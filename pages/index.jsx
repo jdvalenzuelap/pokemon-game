@@ -13,10 +13,10 @@ const Home = () => {
         <PokemonButton>Empezar</PokemonButton>
       </div>
       <div class="grid grid-cols-2 gap-3">
-        <div class="..."><Image src={pikachu} width={200} height={200} alt="logo" /></div>
-        <div class="..."><Image src={snorlax} width={200} height={200} alt="logo" /></div>
-        <div class="..."><Image src={ditto} width={200} height={200} alt="logo" /></div>
-        <div class="..."><Image src={snorlax} width={200} height={200} alt="logo" /></div>
+        <div><Image src={pikachu} width={200} height={200} alt="logo" /></div>
+        <div><Image src={snorlax} width={200} height={200} alt="logo" /></div>
+        <div><Image src={ditto} width={200} height={200} alt="logo" /></div>
+        <div><Image src={snorlax} width={200} height={200} alt="logo" /></div>
       </div>
     </div>
   );
