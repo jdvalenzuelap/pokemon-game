@@ -6,6 +6,7 @@ import Pikachu from "../public/images/pikachu.png";
 import PokemonButton from "@/components/PokemonButton";
 import { useState } from "react";
 import pokeGuide from "../resources/pokeGuide.json";
+import { useRouter } from "next/router";
 
 const Adivina = () => {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
@@ -15,9 +16,9 @@ const Adivina = () => {
   const [attemptsRemaining, setAttemptsRemaining] = useState(3);
   const [answers, setAnswers] = useState([]);
   const [finished, setFinished] = useState(false);
+  const router = useRouter();
 
   const currentPokemonData = pokeGuide.pictures[currentQuestionIndex];
-  console.log(pokeGuide.pictures.length, 'length');
 
   useEffect(() => {
     setAnswers(generateRandomAnswers(currentPokemonData.name, score));
@@ -49,7 +50,10 @@ const Adivina = () => {
     if (selectedAnswer === currentPokemonData.name) {
       setScore(score + 1);
     }
-    if (currentQuestionIndex >= pokeGuide.pictures.length || attemptsRemaining === 0) {
+    if (
+      currentQuestionIndex >= pokeGuide.pictures.length ||
+      attemptsRemaining === 0
+    ) {
       setFinished(true);
     }
     setSelectedAnswer("");
@@ -59,9 +63,17 @@ const Adivina = () => {
 
   if (finished) {
     return (
-      <div className="flex justify-center items-center h-screen">
+      <div className="flex flex-col justify-center items-center h-screen">
         <h1>¡Juego Terminado!</h1>
         <p>Tu puntaje es {score}</p>
+        <button
+          onClick={() =>
+            router.push({ pathname: "leaderboard", query: { score } })
+          }
+          className=" mt-7 border-4  min-w-[200px] min-h-[40px] rounded-full hover:bg-pokeBlue hover:border-pokeYellow hover:text-white"
+        >
+          Ver puntajes más altos
+        </button>
       </div>
     );
   }
