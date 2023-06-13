@@ -1,5 +1,4 @@
 const PokemonButton = ({ children, disabled, clicked, ...props }) => {
-  console.log(clicked);
   return (
     <div {...props}>
       <button

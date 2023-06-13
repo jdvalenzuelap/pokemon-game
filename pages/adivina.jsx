@@ -1,52 +1,82 @@
 import Image from "next/image";
+import dynamic from "next/dynamic";
+import { Suspense, useEffect } from "react";
 import Pokeball from "../public/images/pokeball.png";
 import Pikachu from "../public/images/pikachu.png";
 import PokemonButton from "@/components/PokemonButton";
-import { useState } from 'react'
-import { pokemonData } from '../resources/pokemonData'
+import { useState } from "react";
+import pokeGuide from "../resources/pokeGuide.json";
 
 const Adivina = () => {
-  const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0)
-  const [answered, setAnswered] = useState(false)
-  const [selectedAnswer, setSelectedAnswer] = useState('')
-  const [score, setScore] = useState(0)
-  const [attemptsRemaining, setAttemptsRemaining] = useState(3) // Add state variable
+  const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
+  const [answered, setAnswered] = useState(false);
+  const [selectedAnswer, setSelectedAnswer] = useState("");
+  const [score, setScore] = useState(0);
+  const [attemptsRemaining, setAttemptsRemaining] = useState(3);
+  const [answers, setAnswers] = useState([]);
+  const [finished, setFinished] = useState(false);
 
+  const currentPokemonData = pokeGuide.pictures[currentQuestionIndex];
+  console.log(pokeGuide.pictures.length, 'length');
 
-  const currentPokemonData = pokemonData[currentQuestionIndex]
+  useEffect(() => {
+    setAnswers(generateRandomAnswers(currentPokemonData.name, score));
+  }, [currentQuestionIndex]);
 
-  const handleAnswerClick = (answer) => {
-    if (answer !== currentPokemonData.correctAnswer) { // Check if answer is incorrect
-      setAttemptsRemaining(attemptsRemaining - 1) // Reduce attemptsRemaining by 1
+  const generateRandomAnswers = (rightAnswer, score) => {
+    const answers = [rightAnswer];
+    while (answers.length < 3 + Math.floor(score / 5)) {
+      const randomPokemon =
+        pokeGuide.pictures[
+          Math.floor(Math.random() * pokeGuide.pictures.length)
+        ];
+      if (!answers.includes(randomPokemon.name)) {
+        answers.push(randomPokemon.name);
+      }
     }
-    setSelectedAnswer(answer)
-    setAnswered(true)
-  }
+    return answers.sort(() => Math.random() - 0.5);
+  };
+  const handleAnswerClick = (answer) => {
+    if (answer !== currentPokemonData.name) {
+      // Check if answer is incorrect
+      setAttemptsRemaining(attemptsRemaining - 1); // Reduce attemptsRemaining by 1
+    }
+    setSelectedAnswer(answer);
+    setAnswered(true);
+  };
 
   const handleNextQuestionClick = () => {
-    if (selectedAnswer === currentPokemonData.correctAnswer) {
-      setScore(score + 1)
+    if (selectedAnswer === currentPokemonData.name) {
+      setScore(score + 1);
     }
-    setSelectedAnswer('')
-    setCurrentQuestionIndex(currentQuestionIndex + 1)
-    setAnswered(false)
-  }
+    if (currentQuestionIndex >= pokeGuide.pictures.length || attemptsRemaining === 0) {
+      setFinished(true);
+    }
+    setSelectedAnswer("");
+    setCurrentQuestionIndex(currentQuestionIndex + 1);
+    setAnswered(false);
+  };
 
-  if (currentQuestionIndex === pokemonData.length) {
+  if (finished) {
     return (
       <div className="flex justify-center items-center h-screen">
         <h1>¡Juego Terminado!</h1>
-        <p>Tu puntaje es {score} de {pokemonData.length}</p>
+        <p>Tu puntaje es {score}</p>
       </div>
-    )
+    );
   }
 
   return (
     <div className="mt-5 flex justify-center h-screen">
       <div>
-        <p className="my-6 mx-auto text-3xl font-bold dark:text-gray-400">
-          ¿Quién es el <span className="text-pokeBlue">Pokémon</span>?
-        </p>
+        <div className="flex flex-col  justify-center">
+          <p className="my-1 mx-auto text-3xl font-bold dark:text-gray-400">
+            ¿Quién es el <span className="text-pokeBlue">Pokémon</span>?
+          </p>
+          <p className=" mx-auto text-3xl font-bold dark:text-gray-400 self-center">
+            Nivel: {Math.floor(score / 5) + 1}
+          </p>
+        </div>
         <div className="flex justify-center my-8">
           {[...Array(attemptsRemaining)].map((_, i) => (
             <Image
@@ -59,19 +89,32 @@ const Adivina = () => {
             />
           ))}
         </div>
-        <Image
-          className="mx-auto my-10"
-          src={currentPokemonData.image}
-          alt="pikachu"
-          width={200}
-          height={200}
-        />
+        {answered ? (
+          <Image
+            className="mx-auto my-10"
+            src={require("../public/pokeImages/pokemonColor/" +
+              currentPokemonData.fileName)}
+            alt="pikachu"
+            width={200}
+            height={200}
+          />
+        ) : (
+          <Image
+            className="mx-auto my-10"
+            src={require("../public/pokeImages/pokemonBW/" +
+              currentPokemonData.fileName)}
+            alt="pikachu"
+            width={200}
+            height={200}
+          />
+        )}
+
         <ul>
-          {currentPokemonData.answers.map((answer) => (
+          {answers.map((answer) => (
             <PokemonButton
               key={answer}
               onClick={() => handleAnswerClick(answer)}
-              className='my-2'
+              className="my-2"
               clicked={selectedAnswer === answer}
               disabled={answered}
             >
