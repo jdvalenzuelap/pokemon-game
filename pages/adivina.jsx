@@ -7,6 +7,7 @@ import { pokemonData } from '../resources/pokemonData'
 
 const Adivina = () => {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0)
+  const [answered, setAnswered] = useState(false)
   const [selectedAnswer, setSelectedAnswer] = useState('')
   const [score, setScore] = useState(0)
   const [attemptsRemaining, setAttemptsRemaining] = useState(3) // Add state variable
@@ -19,6 +20,7 @@ const Adivina = () => {
       setAttemptsRemaining(attemptsRemaining - 1) // Reduce attemptsRemaining by 1
     }
     setSelectedAnswer(answer)
+    setAnswered(true)
   }
 
   const handleNextQuestionClick = () => {
@@ -27,6 +29,7 @@ const Adivina = () => {
     }
     setSelectedAnswer('')
     setCurrentQuestionIndex(currentQuestionIndex + 1)
+    setAnswered(false)
   }
 
   if (currentQuestionIndex === pokemonData.length) {
@@ -45,16 +48,16 @@ const Adivina = () => {
           ¿Quién es el <span className="text-pokeBlue">Pokémon</span>?
         </p>
         <div className="flex justify-center my-8">
-        {[...Array(attemptsRemaining)].map((_, i) => (
-          <Image
-            key={i}
-            className="mx-2"
-            src={Pokeball}
-            alt="pokeball"
-            width={45}
-            height={45}
-          />
-        ))}
+          {[...Array(attemptsRemaining)].map((_, i) => (
+            <Image
+              key={i}
+              className="mx-2"
+              src={Pokeball}
+              alt="pokeball"
+              width={45}
+              height={45}
+            />
+          ))}
         </div>
         <Image
           className="mx-auto my-10"
@@ -68,18 +71,23 @@ const Adivina = () => {
             <PokemonButton
               key={answer}
               onClick={() => handleAnswerClick(answer)}
-              className={`my-2 ${selectedAnswer === answer ? 'bg-pokeBlue' : ''}`}
+              className='my-2'
+              clicked={selectedAnswer === answer}
+              disabled={answered}
             >
               {answer}
             </PokemonButton>
           ))}
         </ul>
-      <button
-        onClick={handleNextQuestionClick}
-        disabled={!selectedAnswer}
-        className="bg-blue-500 text-white p-4 my-2 rounded-md disabled:bg-gray-400">
-        Next Question
-      </button>
+        {answered && (
+          <button
+            onClick={handleNextQuestionClick}
+            disabled={!selectedAnswer}
+            className=" mt-7 border-4  w-full min-w-[180px] min-h-[40px] rounded-full hover:bg-pokeBlue hover:border-pokeYellow hover:text-white"
+          >
+            Siguiente
+          </button>
+        )}
       </div>
     </div>
   );
