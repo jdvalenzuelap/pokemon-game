@@ -1,1 +1,484 @@
-{"pictures": [{"name": "Bulbasaur", "fileName": "Bulbasaur.png", "colorPath": "public/pokeImages/pokemonColor/Bulbasaur.png", "bWPath": "public/pokeImages/pokemonBW/Bulbasaur.png"}, {"name": "Charizard", "fileName": "Charizard.png", "colorPath": "public/pokeImages/pokemonColor/Charizard.png", "bWPath": "public/pokeImages/pokemonBW/Charizard.png"}, {"name": "Beedrill", "fileName": "Beedrill.png", "colorPath": "public/pokeImages/pokemonColor/Beedrill.png", "bWPath": "public/pokeImages/pokemonBW/Beedrill.png"}, {"name": "Butterfree", "fileName": "Butterfree.png", "colorPath": "public/pokeImages/pokemonColor/Butterfree.png", "bWPath": "public/pokeImages/pokemonBW/Butterfree.png"}, {"name": "Venusaur", "fileName": "Venusaur.png", "colorPath": "public/pokeImages/pokemonColor/Venusaur.png", "bWPath": "public/pokeImages/pokemonBW/Venusaur.png"}, {"name": "Ivysaur", "fileName": "Ivysaur.png", "colorPath": "public/pokeImages/pokemonColor/Ivysaur.png", "bWPath": "public/pokeImages/pokemonBW/Ivysaur.png"}, {"name": "Cubone", "fileName": "Cubone.png", "colorPath": "public/pokeImages/pokemonColor/Cubone.png", "bWPath": "public/pokeImages/pokemonBW/Cubone.png"}, {"name": "Kakuna", "fileName": "Kakuna.png", "colorPath": "public/pokeImages/pokemonColor/Kakuna.png", "bWPath": "public/pokeImages/pokemonBW/Kakuna.png"}, {"name": "Arbok", "fileName": "Arbok.png", "colorPath": "public/pokeImages/pokemonColor/Arbok.png", "bWPath": "public/pokeImages/pokemonBW/Arbok.png"}, {"name": "Machamp", "fileName": "Machamp.png", "colorPath": "public/pokeImages/pokemonColor/Machamp.png", "bWPath": "public/pokeImages/pokemonBW/Machamp.png"}, {"name": "Dragonair", "fileName": "Dragonair.png", "colorPath": "public/pokeImages/pokemonColor/Dragonair.png", "bWPath": "public/pokeImages/pokemonBW/Dragonair.png"}, {"name": "Pikachu", "fileName": "Pikachu.png", "colorPath": "public/pokeImages/pokemonColor/Pikachu.png", "bWPath": "public/pokeImages/pokemonBW/Pikachu.png"}, {"name": "Wartortle", "fileName": "Wartortle.png", "colorPath": "public/pokeImages/pokemonColor/Wartortle.png", "bWPath": "public/pokeImages/pokemonBW/Wartortle.png"}, {"name": "Mewtwo", "fileName": "Mewtwo.png", "colorPath": "public/pokeImages/pokemonColor/Mewtwo.png", "bWPath": "public/pokeImages/pokemonBW/Mewtwo.png"}, {"name": "Pidgey", "fileName": "Pidgey.png", "colorPath": "public/pokeImages/pokemonColor/Pidgey.png", "bWPath": "public/pokeImages/pokemonBW/Pidgey.png"}, {"name": "Abra", "fileName": "Abra.png", "colorPath": "public/pokeImages/pokemonColor/Abra.png", "bWPath": "public/pokeImages/pokemonBW/Abra.png"}, {"name": "Gyarados", "fileName": "Gyarados.png", "colorPath": "public/pokeImages/pokemonColor/Gyarados.png", "bWPath": "public/pokeImages/pokemonBW/Gyarados.png"}, {"name": "Pidgeotto", "fileName": "Pidgeotto.png", "colorPath": "public/pokeImages/pokemonColor/Pidgeotto.png", "bWPath": "public/pokeImages/pokemonBW/Pidgeotto.png"}, {"name": "Blastoise", "fileName": "Blastoise.png", "colorPath": "public/pokeImages/pokemonColor/Blastoise.png", "bWPath": "public/pokeImages/pokemonBW/Blastoise.png"}, {"name": "Snorlax", "fileName": "Snorlax.png", "colorPath": "public/pokeImages/pokemonColor/Snorlax.png", "bWPath": "public/pokeImages/pokemonBW/Snorlax.png"}, {"name": "Rattata", "fileName": "Rattata.png", "colorPath": "public/pokeImages/pokemonColor/Rattata.png", "bWPath": "public/pokeImages/pokemonBW/Rattata.png"}, {"name": "Magikarp", "fileName": "Magikarp.png", "colorPath": "public/pokeImages/pokemonColor/Magikarp.png", "bWPath": "public/pokeImages/pokemonBW/Magikarp.png"}, {"name": "Weedle", "fileName": "Weedle.png", "colorPath": "public/pokeImages/pokemonColor/Weedle.png", "bWPath": "public/pokeImages/pokemonBW/Weedle.png"}, {"name": "Dragonite", "fileName": "Dragonite.png", "colorPath": "public/pokeImages/pokemonColor/Dragonite.png", "bWPath": "public/pokeImages/pokemonBW/Dragonite.png"}, {"name": "Metapod", "fileName": "Metapod.png", "colorPath": "public/pokeImages/pokemonColor/Metapod.png", "bWPath": "public/pokeImages/pokemonBW/Metapod.png"}, {"name": "Staryu", "fileName": "Staryu.png", "colorPath": "public/pokeImages/pokemonColor/Staryu.png", "bWPath": "public/pokeImages/pokemonBW/Staryu.png"}, {"name": "Spearow", "fileName": "Spearow.png", "colorPath": "public/pokeImages/pokemonColor/Spearow.png", "bWPath": "public/pokeImages/pokemonBW/Spearow.png"}, {"name": "Fearow", "fileName": "Fearow.png", "colorPath": "public/pokeImages/pokemonColor/Fearow.png", "bWPath": "public/pokeImages/pokemonBW/Fearow.png"}, {"name": "Diglett", "fileName": "Diglett.png", "colorPath": "public/pokeImages/pokemonColor/Diglett.png", "bWPath": "public/pokeImages/pokemonBW/Diglett.png"}, {"name": "Pidgeot", "fileName": "Pidgeot.png", "colorPath": "public/pokeImages/pokemonColor/Pidgeot.png", "bWPath": "public/pokeImages/pokemonBW/Pidgeot.png"}, {"name": "Raichu", "fileName": "Raichu.png", "colorPath": "public/pokeImages/pokemonColor/Raichu.png", "bWPath": "public/pokeImages/pokemonBW/Raichu.png"}, {"name": "Caterpie", "fileName": "Caterpie.png", "colorPath": "public/pokeImages/pokemonColor/Caterpie.png", "bWPath": "public/pokeImages/pokemonBW/Caterpie.png"}, {"name": "Raticate", "fileName": "Raticate.png", "colorPath": "public/pokeImages/pokemonColor/Raticate.png", "bWPath": "public/pokeImages/pokemonBW/Raticate.png"}, {"name": "Onix", "fileName": "Onix.png", "colorPath": "public/pokeImages/pokemonColor/Onix.png", "bWPath": "public/pokeImages/pokemonBW/Onix.png"}, {"name": "Squirtle", "fileName": "Squirtle.png", "colorPath": "public/pokeImages/pokemonColor/Squirtle.png", "bWPath": "public/pokeImages/pokemonBW/Squirtle.png"}, {"name": "Meowth", "fileName": "Meowth.png", "colorPath": "public/pokeImages/pokemonColor/Meowth.png", "bWPath": "public/pokeImages/pokemonBW/Meowth.png"}, {"name": "Charmander", "fileName": "Charmander.png", "colorPath": "public/pokeImages/pokemonColor/Charmander.png", "bWPath": "public/pokeImages/pokemonBW/Charmander.png"}, {"name": "Charmeleon", "fileName": "Charmeleon.png", "colorPath": "public/pokeImages/pokemonColor/Charmeleon.png", "bWPath": "public/pokeImages/pokemonBW/Charmeleon.png"}, {"name": "Mew", "fileName": "Mew.png", "colorPath": "public/pokeImages/pokemonColor/Mew.png", "bWPath": "public/pokeImages/pokemonBW/Mew.png"}, {"name": "Ekans", "fileName": "Ekans.png", "colorPath": "public/pokeImages/pokemonColor/Ekans.png", "bWPath": "public/pokeImages/pokemonBW/Ekans.png"}, {"name": "Charizard", "fileName": "Charizard.png", "colorPath": "public/pokeImages/pokemonColor/Charizard.png", "bWPath": "public/pokeImages/pokemonBW/Charizard.png"}, {"name": "Beedrill", "fileName": "Beedrill.png", "colorPath": "public/pokeImages/pokemonColor/Beedrill.png", "bWPath": "public/pokeImages/pokemonBW/Beedrill.png"}, {"name": "Butterfree", "fileName": "Butterfree.png", "colorPath": "public/pokeImages/pokemonColor/Butterfree.png", "bWPath": "public/pokeImages/pokemonBW/Butterfree.png"}, {"name": "Venusaur", "fileName": "Venusaur.png", "colorPath": "public/pokeImages/pokemonColor/Venusaur.png", "bWPath": "public/pokeImages/pokemonBW/Venusaur.png"}, {"name": "Ivysaur", "fileName": "Ivysaur.png", "colorPath": "public/pokeImages/pokemonColor/Ivysaur.png", "bWPath": "public/pokeImages/pokemonBW/Ivysaur.png"}, {"name": "Cubone", "fileName": "Cubone.png", "colorPath": "public/pokeImages/pokemonColor/Cubone.png", "bWPath": "public/pokeImages/pokemonBW/Cubone.png"}, {"name": "Kakuna", "fileName": "Kakuna.png", "colorPath": "public/pokeImages/pokemonColor/Kakuna.png", "bWPath": "public/pokeImages/pokemonBW/Kakuna.png"}, {"name": "Arbok", "fileName": "Arbok.png", "colorPath": "public/pokeImages/pokemonColor/Arbok.png", "bWPath": "public/pokeImages/pokemonBW/Arbok.png"}, {"name": "Machamp", "fileName": "Machamp.png", "colorPath": "public/pokeImages/pokemonColor/Machamp.png", "bWPath": "public/pokeImages/pokemonBW/Machamp.png"}, {"name": "Dragonair", "fileName": "Dragonair.png", "colorPath": "public/pokeImages/pokemonColor/Dragonair.png", "bWPath": "public/pokeImages/pokemonBW/Dragonair.png"}, {"name": "Pikachu", "fileName": "Pikachu.png", "colorPath": "public/pokeImages/pokemonColor/Pikachu.png", "bWPath": "public/pokeImages/pokemonBW/Pikachu.png"}, {"name": "Wartortle", "fileName": "Wartortle.png", "colorPath": "public/pokeImages/pokemonColor/Wartortle.png", "bWPath": "public/pokeImages/pokemonBW/Wartortle.png"}, {"name": "blank", "fileName": "blank.jpg", "colorPath": "public/pokeImages/pokemonColor/blank.jpg", "bWPath": "public/pokeImages/pokemonBW/blank.jpg"}, {"name": "Mewtwo", "fileName": "Mewtwo.png", "colorPath": "public/pokeImages/pokemonColor/Mewtwo.png", "bWPath": "public/pokeImages/pokemonBW/Mewtwo.png"}, {"name": "Pidgey", "fileName": "Pidgey.png", "colorPath": "public/pokeImages/pokemonColor/Pidgey.png", "bWPath": "public/pokeImages/pokemonBW/Pidgey.png"}, {"name": "Abra", "fileName": "Abra.png", "colorPath": "public/pokeImages/pokemonColor/Abra.png", "bWPath": "public/pokeImages/pokemonBW/Abra.png"}, {"name": "Gyarados", "fileName": "Gyarados.png", "colorPath": "public/pokeImages/pokemonColor/Gyarados.png", "bWPath": "public/pokeImages/pokemonBW/Gyarados.png"}, {"name": "Pidgeotto", "fileName": "Pidgeotto.png", "colorPath": "public/pokeImages/pokemonColor/Pidgeotto.png", "bWPath": "public/pokeImages/pokemonBW/Pidgeotto.png"}, {"name": "Blastoise", "fileName": "Blastoise.png", "colorPath": "public/pokeImages/pokemonColor/Blastoise.png", "bWPath": "public/pokeImages/pokemonBW/Blastoise.png"}, {"name": "Snorlax", "fileName": "Snorlax.png", "colorPath": "public/pokeImages/pokemonColor/Snorlax.png", "bWPath": "public/pokeImages/pokemonBW/Snorlax.png"}, {"name": "Rattata", "fileName": "Rattata.png", "colorPath": "public/pokeImages/pokemonColor/Rattata.png", "bWPath": "public/pokeImages/pokemonBW/Rattata.png"}, {"name": "Magikarp", "fileName": "Magikarp.png", "colorPath": "public/pokeImages/pokemonColor/Magikarp.png", "bWPath": "public/pokeImages/pokemonBW/Magikarp.png"}, {"name": "Weedle", "fileName": "Weedle.png", "colorPath": "public/pokeImages/pokemonColor/Weedle.png", "bWPath": "public/pokeImages/pokemonBW/Weedle.png"}, {"name": "Dragonite", "fileName": "Dragonite.png", "colorPath": "public/pokeImages/pokemonColor/Dragonite.png", "bWPath": "public/pokeImages/pokemonBW/Dragonite.png"}, {"name": "Metapod", "fileName": "Metapod.png", "colorPath": "public/pokeImages/pokemonColor/Metapod.png", "bWPath": "public/pokeImages/pokemonBW/Metapod.png"}, {"name": "Staryu", "fileName": "Staryu.png", "colorPath": "public/pokeImages/pokemonColor/Staryu.png", "bWPath": "public/pokeImages/pokemonBW/Staryu.png"}, {"name": "Spearow", "fileName": "Spearow.png", "colorPath": "public/pokeImages/pokemonColor/Spearow.png", "bWPath": "public/pokeImages/pokemonBW/Spearow.png"}, {"name": "Fearow", "fileName": "Fearow.png", "colorPath": "public/pokeImages/pokemonColor/Fearow.png", "bWPath": "public/pokeImages/pokemonBW/Fearow.png"}, {"name": "Diglett", "fileName": "Diglett.png", "colorPath": "public/pokeImages/pokemonColor/Diglett.png", "bWPath": "public/pokeImages/pokemonBW/Diglett.png"}, {"name": "Pidgeot", "fileName": "Pidgeot.png", "colorPath": "public/pokeImages/pokemonColor/Pidgeot.png", "bWPath": "public/pokeImages/pokemonBW/Pidgeot.png"}, {"name": "Raichu", "fileName": "Raichu.png", "colorPath": "public/pokeImages/pokemonColor/Raichu.png", "bWPath": "public/pokeImages/pokemonBW/Raichu.png"}, {"name": "Caterpie", "fileName": "Caterpie.png", "colorPath": "public/pokeImages/pokemonColor/Caterpie.png", "bWPath": "public/pokeImages/pokemonBW/Caterpie.png"}, {"name": "Raticate", "fileName": "Raticate.png", "colorPath": "public/pokeImages/pokemonColor/Raticate.png", "bWPath": "public/pokeImages/pokemonBW/Raticate.png"}, {"name": "Onix", "fileName": "Onix.png", "colorPath": "public/pokeImages/pokemonColor/Onix.png", "bWPath": "public/pokeImages/pokemonBW/Onix.png"}, {"name": "Squirtle", "fileName": "Squirtle.png", "colorPath": "public/pokeImages/pokemonColor/Squirtle.png", "bWPath": "public/pokeImages/pokemonBW/Squirtle.png"}, {"name": "Meowth", "fileName": "Meowth.png", "colorPath": "public/pokeImages/pokemonColor/Meowth.png", "bWPath": "public/pokeImages/pokemonBW/Meowth.png"}, {"name": "Charmander", "fileName": "Charmander.png", "colorPath": "public/pokeImages/pokemonColor/Charmander.png", "bWPath": "public/pokeImages/pokemonBW/Charmander.png"}, {"name": "Charmeleon", "fileName": "Charmeleon.png", "colorPath": "public/pokeImages/pokemonColor/Charmeleon.png", "bWPath": "public/pokeImages/pokemonBW/Charmeleon.png"}, {"name": "Mew", "fileName": "Mew.png", "colorPath": "public/pokeImages/pokemonColor/Mew.png", "bWPath": "public/pokeImages/pokemonBW/Mew.png"}, {"name": "Ekans", "fileName": "Ekans.png", "colorPath": "public/pokeImages/pokemonColor/Ekans.png", "bWPath": "public/pokeImages/pokemonBW/Ekans.png"}]}
+{
+  "pictures": [
+    {
+      "name": "Bulbasaur",
+      "fileName": "Bulbasaur.png",
+      "colorPath": "public/pokeImages/pokemonColor/Bulbasaur.png",
+      "bWPath": "public/pokeImages/pokemonBW/Bulbasaur.png"
+    },
+    {
+      "name": "Charizard",
+      "fileName": "Charizard.png",
+      "colorPath": "public/pokeImages/pokemonColor/Charizard.png",
+      "bWPath": "public/pokeImages/pokemonBW/Charizard.png"
+    },
+    {
+      "name": "Beedrill",
+      "fileName": "Beedrill.png",
+      "colorPath": "public/pokeImages/pokemonColor/Beedrill.png",
+      "bWPath": "public/pokeImages/pokemonBW/Beedrill.png"
+    },
+    {
+      "name": "Butterfree",
+      "fileName": "Butterfree.png",
+      "colorPath": "public/pokeImages/pokemonColor/Butterfree.png",
+      "bWPath": "public/pokeImages/pokemonBW/Butterfree.png"
+    },
+    {
+      "name": "Venusaur",
+      "fileName": "Venusaur.png",
+      "colorPath": "public/pokeImages/pokemonColor/Venusaur.png",
+      "bWPath": "public/pokeImages/pokemonBW/Venusaur.png"
+    },
+    {
+      "name": "Ivysaur",
+      "fileName": "Ivysaur.png",
+      "colorPath": "public/pokeImages/pokemonColor/Ivysaur.png",
+      "bWPath": "public/pokeImages/pokemonBW/Ivysaur.png"
+    },
+    {
+      "name": "Cubone",
+      "fileName": "Cubone.png",
+      "colorPath": "public/pokeImages/pokemonColor/Cubone.png",
+      "bWPath": "public/pokeImages/pokemonBW/Cubone.png"
+    },
+    {
+      "name": "Kakuna",
+      "fileName": "Kakuna.png",
+      "colorPath": "public/pokeImages/pokemonColor/Kakuna.png",
+      "bWPath": "public/pokeImages/pokemonBW/Kakuna.png"
+    },
+    {
+      "name": "Arbok",
+      "fileName": "Arbok.png",
+      "colorPath": "public/pokeImages/pokemonColor/Arbok.png",
+      "bWPath": "public/pokeImages/pokemonBW/Arbok.png"
+    },
+    {
+      "name": "Machamp",
+      "fileName": "Machamp.png",
+      "colorPath": "public/pokeImages/pokemonColor/Machamp.png",
+      "bWPath": "public/pokeImages/pokemonBW/Machamp.png"
+    },
+    {
+      "name": "Dragonair",
+      "fileName": "Dragonair.png",
+      "colorPath": "public/pokeImages/pokemonColor/Dragonair.png",
+      "bWPath": "public/pokeImages/pokemonBW/Dragonair.png"
+    },
+    {
+      "name": "Pikachu",
+      "fileName": "Pikachu.png",
+      "colorPath": "public/pokeImages/pokemonColor/Pikachu.png",
+      "bWPath": "public/pokeImages/pokemonBW/Pikachu.png"
+    },
+    {
+      "name": "Wartortle",
+      "fileName": "Wartortle.png",
+      "colorPath": "public/pokeImages/pokemonColor/Wartortle.png",
+      "bWPath": "public/pokeImages/pokemonBW/Wartortle.png"
+    },
+    {
+      "name": "Mewtwo",
+      "fileName": "Mewtwo.png",
+      "colorPath": "public/pokeImages/pokemonColor/Mewtwo.png",
+      "bWPath": "public/pokeImages/pokemonBW/Mewtwo.png"
+    },
+    {
+      "name": "Pidgey",
+      "fileName": "Pidgey.png",
+      "colorPath": "public/pokeImages/pokemonColor/Pidgey.png",
+      "bWPath": "public/pokeImages/pokemonBW/Pidgey.png"
+    },
+    {
+      "name": "Abra",
+      "fileName": "Abra.png",
+      "colorPath": "public/pokeImages/pokemonColor/Abra.png",
+      "bWPath": "public/pokeImages/pokemonBW/Abra.png"
+    },
+    {
+      "name": "Gyarados",
+      "fileName": "Gyarados.png",
+      "colorPath": "public/pokeImages/pokemonColor/Gyarados.png",
+      "bWPath": "public/pokeImages/pokemonBW/Gyarados.png"
+    },
+    {
+      "name": "Pidgeotto",
+      "fileName": "Pidgeotto.png",
+      "colorPath": "public/pokeImages/pokemonColor/Pidgeotto.png",
+      "bWPath": "public/pokeImages/pokemonBW/Pidgeotto.png"
+    },
+    {
+      "name": "Blastoise",
+      "fileName": "Blastoise.png",
+      "colorPath": "public/pokeImages/pokemonColor/Blastoise.png",
+      "bWPath": "public/pokeImages/pokemonBW/Blastoise.png"
+    },
+    {
+      "name": "Snorlax",
+      "fileName": "Snorlax.png",
+      "colorPath": "public/pokeImages/pokemonColor/Snorlax.png",
+      "bWPath": "public/pokeImages/pokemonBW/Snorlax.png"
+    },
+    {
+      "name": "Rattata",
+      "fileName": "Rattata.png",
+      "colorPath": "public/pokeImages/pokemonColor/Rattata.png",
+      "bWPath": "public/pokeImages/pokemonBW/Rattata.png"
+    },
+    {
+      "name": "Magikarp",
+      "fileName": "Magikarp.png",
+      "colorPath": "public/pokeImages/pokemonColor/Magikarp.png",
+      "bWPath": "public/pokeImages/pokemonBW/Magikarp.png"
+    },
+    {
+      "name": "Weedle",
+      "fileName": "Weedle.png",
+      "colorPath": "public/pokeImages/pokemonColor/Weedle.png",
+      "bWPath": "public/pokeImages/pokemonBW/Weedle.png"
+    },
+    {
+      "name": "Dragonite",
+      "fileName": "Dragonite.png",
+      "colorPath": "public/pokeImages/pokemonColor/Dragonite.png",
+      "bWPath": "public/pokeImages/pokemonBW/Dragonite.png"
+    },
+    {
+      "name": "Metapod",
+      "fileName": "Metapod.png",
+      "colorPath": "public/pokeImages/pokemonColor/Metapod.png",
+      "bWPath": "public/pokeImages/pokemonBW/Metapod.png"
+    },
+    {
+      "name": "Staryu",
+      "fileName": "Staryu.png",
+      "colorPath": "public/pokeImages/pokemonColor/Staryu.png",
+      "bWPath": "public/pokeImages/pokemonBW/Staryu.png"
+    },
+    {
+      "name": "Spearow",
+      "fileName": "Spearow.png",
+      "colorPath": "public/pokeImages/pokemonColor/Spearow.png",
+      "bWPath": "public/pokeImages/pokemonBW/Spearow.png"
+    },
+    {
+      "name": "Fearow",
+      "fileName": "Fearow.png",
+      "colorPath": "public/pokeImages/pokemonColor/Fearow.png",
+      "bWPath": "public/pokeImages/pokemonBW/Fearow.png"
+    },
+    {
+      "name": "Diglett",
+      "fileName": "Diglett.png",
+      "colorPath": "public/pokeImages/pokemonColor/Diglett.png",
+      "bWPath": "public/pokeImages/pokemonBW/Diglett.png"
+    },
+    {
+      "name": "Pidgeot",
+      "fileName": "Pidgeot.png",
+      "colorPath": "public/pokeImages/pokemonColor/Pidgeot.png",
+      "bWPath": "public/pokeImages/pokemonBW/Pidgeot.png"
+    },
+    {
+      "name": "Raichu",
+      "fileName": "Raichu.png",
+      "colorPath": "public/pokeImages/pokemonColor/Raichu.png",
+      "bWPath": "public/pokeImages/pokemonBW/Raichu.png"
+    },
+    {
+      "name": "Caterpie",
+      "fileName": "Caterpie.png",
+      "colorPath": "public/pokeImages/pokemonColor/Caterpie.png",
+      "bWPath": "public/pokeImages/pokemonBW/Caterpie.png"
+    },
+    {
+      "name": "Raticate",
+      "fileName": "Raticate.png",
+      "colorPath": "public/pokeImages/pokemonColor/Raticate.png",
+      "bWPath": "public/pokeImages/pokemonBW/Raticate.png"
+    },
+    {
+      "name": "Onix",
+      "fileName": "Onix.png",
+      "colorPath": "public/pokeImages/pokemonColor/Onix.png",
+      "bWPath": "public/pokeImages/pokemonBW/Onix.png"
+    },
+    {
+      "name": "Squirtle",
+      "fileName": "Squirtle.png",
+      "colorPath": "public/pokeImages/pokemonColor/Squirtle.png",
+      "bWPath": "public/pokeImages/pokemonBW/Squirtle.png"
+    },
+    {
+      "name": "Meowth",
+      "fileName": "Meowth.png",
+      "colorPath": "public/pokeImages/pokemonColor/Meowth.png",
+      "bWPath": "public/pokeImages/pokemonBW/Meowth.png"
+    },
+    {
+      "name": "Charmander",
+      "fileName": "Charmander.png",
+      "colorPath": "public/pokeImages/pokemonColor/Charmander.png",
+      "bWPath": "public/pokeImages/pokemonBW/Charmander.png"
+    },
+    {
+      "name": "Charmeleon",
+      "fileName": "Charmeleon.png",
+      "colorPath": "public/pokeImages/pokemonColor/Charmeleon.png",
+      "bWPath": "public/pokeImages/pokemonBW/Charmeleon.png"
+    },
+    {
+      "name": "Mew",
+      "fileName": "Mew.png",
+      "colorPath": "public/pokeImages/pokemonColor/Mew.png",
+      "bWPath": "public/pokeImages/pokemonBW/Mew.png"
+    },
+    {
+      "name": "Ekans",
+      "fileName": "Ekans.png",
+      "colorPath": "public/pokeImages/pokemonColor/Ekans.png",
+      "bWPath": "public/pokeImages/pokemonBW/Ekans.png"
+    },
+    {
+      "name": "Charizard",
+      "fileName": "Charizard.png",
+      "colorPath": "public/pokeImages/pokemonColor/Charizard.png",
+      "bWPath": "public/pokeImages/pokemonBW/Charizard.png"
+    },
+    {
+      "name": "Beedrill",
+      "fileName": "Beedrill.png",
+      "colorPath": "public/pokeImages/pokemonColor/Beedrill.png",
+      "bWPath": "public/pokeImages/pokemonBW/Beedrill.png"
+    },
+    {
+      "name": "Butterfree",
+      "fileName": "Butterfree.png",
+      "colorPath": "public/pokeImages/pokemonColor/Butterfree.png",
+      "bWPath": "public/pokeImages/pokemonBW/Butterfree.png"
+    },
+    {
+      "name": "Venusaur",
+      "fileName": "Venusaur.png",
+      "colorPath": "public/pokeImages/pokemonColor/Venusaur.png",
+      "bWPath": "public/pokeImages/pokemonBW/Venusaur.png"
+    },
+    {
+      "name": "Ivysaur",
+      "fileName": "Ivysaur.png",
+      "colorPath": "public/pokeImages/pokemonColor/Ivysaur.png",
+      "bWPath": "public/pokeImages/pokemonBW/Ivysaur.png"
+    },
+    {
+      "name": "Cubone",
+      "fileName": "Cubone.png",
+      "colorPath": "public/pokeImages/pokemonColor/Cubone.png",
+      "bWPath": "public/pokeImages/pokemonBW/Cubone.png"
+    },
+    {
+      "name": "Kakuna",
+      "fileName": "Kakuna.png",
+      "colorPath": "public/pokeImages/pokemonColor/Kakuna.png",
+      "bWPath": "public/pokeImages/pokemonBW/Kakuna.png"
+    },
+    {
+      "name": "Arbok",
+      "fileName": "Arbok.png",
+      "colorPath": "public/pokeImages/pokemonColor/Arbok.png",
+      "bWPath": "public/pokeImages/pokemonBW/Arbok.png"
+    },
+    {
+      "name": "Machamp",
+      "fileName": "Machamp.png",
+      "colorPath": "public/pokeImages/pokemonColor/Machamp.png",
+      "bWPath": "public/pokeImages/pokemonBW/Machamp.png"
+    },
+    {
+      "name": "Dragonair",
+      "fileName": "Dragonair.png",
+      "colorPath": "public/pokeImages/pokemonColor/Dragonair.png",
+      "bWPath": "public/pokeImages/pokemonBW/Dragonair.png"
+    },
+    {
+      "name": "Pikachu",
+      "fileName": "Pikachu.png",
+      "colorPath": "public/pokeImages/pokemonColor/Pikachu.png",
+      "bWPath": "public/pokeImages/pokemonBW/Pikachu.png"
+    },
+    {
+      "name": "Wartortle",
+      "fileName": "Wartortle.png",
+      "colorPath": "public/pokeImages/pokemonColor/Wartortle.png",
+      "bWPath": "public/pokeImages/pokemonBW/Wartortle.png"
+    },
+    {
+      "name": "blank",
+      "fileName": "blank.jpg",
+      "colorPath": "public/pokeImages/pokemonColor/blank.jpg",
+      "bWPath": "public/pokeImages/pokemonBW/blank.jpg"
+    },
+    {
+      "name": "Mewtwo",
+      "fileName": "Mewtwo.png",
+      "colorPath": "public/pokeImages/pokemonColor/Mewtwo.png",
+      "bWPath": "public/pokeImages/pokemonBW/Mewtwo.png"
+    },
+    {
+      "name": "Pidgey",
+      "fileName": "Pidgey.png",
+      "colorPath": "public/pokeImages/pokemonColor/Pidgey.png",
+      "bWPath": "public/pokeImages/pokemonBW/Pidgey.png"
+    },
+    {
+      "name": "Abra",
+      "fileName": "Abra.png",
+      "colorPath": "public/pokeImages/pokemonColor/Abra.png",
+      "bWPath": "public/pokeImages/pokemonBW/Abra.png"
+    },
+    {
+      "name": "Gyarados",
+      "fileName": "Gyarados.png",
+      "colorPath": "public/pokeImages/pokemonColor/Gyarados.png",
+      "bWPath": "public/pokeImages/pokemonBW/Gyarados.png"
+    },
+    {
+      "name": "Pidgeotto",
+      "fileName": "Pidgeotto.png",
+      "colorPath": "public/pokeImages/pokemonColor/Pidgeotto.png",
+      "bWPath": "public/pokeImages/pokemonBW/Pidgeotto.png"
+    },
+    {
+      "name": "Blastoise",
+      "fileName": "Blastoise.png",
+      "colorPath": "public/pokeImages/pokemonColor/Blastoise.png",
+      "bWPath": "public/pokeImages/pokemonBW/Blastoise.png"
+    },
+    {
+      "name": "Snorlax",
+      "fileName": "Snorlax.png",
+      "colorPath": "public/pokeImages/pokemonColor/Snorlax.png",
+      "bWPath": "public/pokeImages/pokemonBW/Snorlax.png"
+    },
+    {
+      "name": "Rattata",
+      "fileName": "Rattata.png",
+      "colorPath": "public/pokeImages/pokemonColor/Rattata.png",
+      "bWPath": "public/pokeImages/pokemonBW/Rattata.png"
+    },
+    {
+      "name": "Magikarp",
+      "fileName": "Magikarp.png",
+      "colorPath": "public/pokeImages/pokemonColor/Magikarp.png",
+      "bWPath": "public/pokeImages/pokemonBW/Magikarp.png"
+    },
+    {
+      "name": "Weedle",
+      "fileName": "Weedle.png",
+      "colorPath": "public/pokeImages/pokemonColor/Weedle.png",
+      "bWPath": "public/pokeImages/pokemonBW/Weedle.png"
+    },
+    {
+      "name": "Dragonite",
+      "fileName": "Dragonite.png",
+      "colorPath": "public/pokeImages/pokemonColor/Dragonite.png",
+      "bWPath": "public/pokeImages/pokemonBW/Dragonite.png"
+    },
+    {
+      "name": "Metapod",
+      "fileName": "Metapod.png",
+      "colorPath": "public/pokeImages/pokemonColor/Metapod.png",
+      "bWPath": "public/pokeImages/pokemonBW/Metapod.png"
+    },
+    {
+      "name": "Staryu",
+      "fileName": "Staryu.png",
+      "colorPath": "public/pokeImages/pokemonColor/Staryu.png",
+      "bWPath": "public/pokeImages/pokemonBW/Staryu.png"
+    },
+    {
+      "name": "Spearow",
+      "fileName": "Spearow.png",
+      "colorPath": "public/pokeImages/pokemonColor/Spearow.png",
+      "bWPath": "public/pokeImages/pokemonBW/Spearow.png"
+    },
+    {
+      "name": "Fearow",
+      "fileName": "Fearow.png",
+      "colorPath": "public/pokeImages/pokemonColor/Fearow.png",
+      "bWPath": "public/pokeImages/pokemonBW/Fearow.png"
+    },
+    {
+      "name": "Diglett",
+      "fileName": "Diglett.png",
+      "colorPath": "public/pokeImages/pokemonColor/Diglett.png",
+      "bWPath": "public/pokeImages/pokemonBW/Diglett.png"
+    },
+    {
+      "name": "Pidgeot",
+      "fileName": "Pidgeot.png",
+      "colorPath": "public/pokeImages/pokemonColor/Pidgeot.png",
+      "bWPath": "public/pokeImages/pokemonBW/Pidgeot.png"
+    },
+    {
+      "name": "Raichu",
+      "fileName": "Raichu.png",
+      "colorPath": "public/pokeImages/pokemonColor/Raichu.png",
+      "bWPath": "public/pokeImages/pokemonBW/Raichu.png"
+    },
+    {
+      "name": "Caterpie",
+      "fileName": "Caterpie.png",
+      "colorPath": "public/pokeImages/pokemonColor/Caterpie.png",
+      "bWPath": "public/pokeImages/pokemonBW/Caterpie.png"
+    },
+    {
+      "name": "Raticate",
+      "fileName": "Raticate.png",
+      "colorPath": "public/pokeImages/pokemonColor/Raticate.png",
+      "bWPath": "public/pokeImages/pokemonBW/Raticate.png"
+    },
+    {
+      "name": "Onix",
+      "fileName": "Onix.png",
+      "colorPath": "public/pokeImages/pokemonColor/Onix.png",
+      "bWPath": "public/pokeImages/pokemonBW/Onix.png"
+    },
+    {
+      "name": "Squirtle",
+      "fileName": "Squirtle.png",
+      "colorPath": "public/pokeImages/pokemonColor/Squirtle.png",
+      "bWPath": "public/pokeImages/pokemonBW/Squirtle.png"
+    },
+    {
+      "name": "Meowth",
+      "fileName": "Meowth.png",
+      "colorPath": "public/pokeImages/pokemonColor/Meowth.png",
+      "bWPath": "public/pokeImages/pokemonBW/Meowth.png"
+    },
+    {
+      "name": "Charmander",
+      "fileName": "Charmander.png",
+      "colorPath": "public/pokeImages/pokemonColor/Charmander.png",
+      "bWPath": "public/pokeImages/pokemonBW/Charmander.png"
+    },
+    {
+      "name": "Charmeleon",
+      "fileName": "Charmeleon.png",
+      "colorPath": "public/pokeImages/pokemonColor/Charmeleon.png",
+      "bWPath": "public/pokeImages/pokemonBW/Charmeleon.png"
+    },
+    {
+      "name": "Mew",
+      "fileName": "Mew.png",
+      "colorPath": "public/pokeImages/pokemonColor/Mew.png",
+      "bWPath": "public/pokeImages/pokemonBW/Mew.png"
+    },
+    {
+      "name": "Ekans",
+      "fileName": "Ekans.png",
+      "colorPath": "public/pokeImages/pokemonColor/Ekans.png",
+      "bWPath": "public/pokeImages/pokemonBW/Ekans.png"
+    }
+  ]
+}
