@@ -10,7 +10,6 @@ const LeaderBoard = ({ names, points }) => {
   const [name, setName] = useState("");
   const winner = score > points[points.length - 1];
 
-
   const handleButtonClick = async () => {
     names[names.length - 1] = name;
     points[points.length - 1] = score;
@@ -27,7 +26,6 @@ const LeaderBoard = ({ names, points }) => {
         }
       }
     }
-
 
     //write the contents of names and points to the file
     try {
